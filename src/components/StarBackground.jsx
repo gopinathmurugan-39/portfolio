@@ -61,7 +61,7 @@ export const StarBackground = () => {
 	return <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
 		{
 			stars.map((star) => (
-				<div className="star animate-pulse-subtle" style={{
+				<div key={star.id} className="star animate-pulse-subtle" style={{
 					width: star.size + "px",
 					height: star.size + "px",
 					left: star.x + "%",
@@ -73,7 +73,7 @@ export const StarBackground = () => {
 		}
 		{
 			meteors.map((meteor) => (
-				<div className="meteor animate-meteor" style={{
+				<div key={meteor.id} className="meteor animate-meteor" style={{
 					width: meteor.size * 50 + "px",
 					height: meteor.size * 2 + "px",
 					left: meteor.x + "%",

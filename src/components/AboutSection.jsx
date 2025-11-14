@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { BrainIcon, Code, ToolCase } from "lucide-react";
 
 export const AboutSection = () => {
 	return <section id="about" className="py-24 px-4 relative">
@@ -43,7 +43,7 @@ export const AboutSection = () => {
 									Web Development
 								</h4>
 								<p className="text-muted-foreground">
-									Creating responsive websites and web applications with modern frameworks.
+									Creating responsive web applications with modern frameworks.
 								</p>
 							</div>
 						</div>
@@ -51,14 +51,14 @@ export const AboutSection = () => {
 					<div className="gradient-border p-6 card-hover">
 						<div className="flex items-start gap-4">
 							<div className="p-3 rounded-full bg-primary/10">
-								<User className="text-primary h-6 w-6" />
+								<ToolCase className="text-primary h-6 w-6" />
 							</div>
 							<div className="text-left">
 								<h4 className="font-semibold">
-									UI/UX Design
+									Deployment
 								</h4>
 								<p className="text-muted-foreground">
-									Creating responsive websites and web applications with modern frameworks.
+									Experienced in CI/CD driven environment and setting up deployment workflows.
 								</p>
 							</div>
 						</div>
@@ -66,14 +66,14 @@ export const AboutSection = () => {
 					<div className="gradient-border p-6 card-hover">
 						<div className="flex items-start gap-4">
 							<div className="p-3 rounded-full bg-primary/10">
-								<Briefcase className="text-primary h-6 w-6" />
+								<BrainIcon className="text-primary h-6 w-6" />
 							</div>
 							<div className="text-left">
 								<h4 className="font-semibold">
-									Web Development
+									UX Enhancements
 								</h4>
 								<p className="text-muted-foreground">
-									Creating responsive websites and web applications with modern frameworks.
+									Brainstorming with the stakeholders for enhancing the user experience
 								</p>
 							</div>
 						</div>

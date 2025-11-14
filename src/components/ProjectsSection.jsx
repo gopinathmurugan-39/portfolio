@@ -3,32 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
 	{
 		id: 1,
-		title: "Saas Landing Page",
-		description: "A beautiful Landing page app using React and Tailwind",
-		image: "/projects/project1.png",
-		tags: ["React", "Tailwind", "NextJs"],
-		demoUrl: "#",
-		githunUrl: ""
-	},
-	{
-		id: 2,
-		title: "Orbit Analytics Dashboard",
-		description:
-		"Interactive analytics dashboard with data visualization and filtering capabilities.",
-		image: "/projects/project2.png",
-		tags: ["TypeScript", "D3.js", "Next.js"],
-		demoUrl: "#",
-		githubUrl: "#",
-	},
-	{
-		id: 3,
-		title: "E-commerce Platform",
-		description:
-		"Full-featured e-commerce platform with user authentication and payment processing.",
-		image: "/projects/project3.png",
-		tags: ["React", "Node.js", "Stripe"],
-		demoUrl: "#",
-		githubUrl: "#",
+		title: "Affinity (IC Role)",
+		description: "A multi-tenant web application serving luxury real estate firms. The screenshot is from on of the clients' website",
+		image: "/projects/project-affinity.png",
+		tags: ["NextJs", "TypeScript", "SASS",],
+		demoUrl: "",
+		githubUrl: ""
 	}
 ];
 
@@ -64,12 +44,16 @@ export const ProjectsSectiom = () => {
 								</p>
 								<div className="flex justify-between items-center">
 									<div className="flex space-x-3">
-										<a href={project.demoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
-											<ExternalLink size={20} />
-										</a>
-										<a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
-											<Github size={20}/>
-										</a>
+										{
+											project.demoUrl !== "" && <a href={project.demoUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+												<ExternalLink size={20} />
+											</a>
+										}
+										{
+											project.githubUrl !== "" && <a href={project.githubUrl} target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+												<Github size={20}/>
+											</a>
+										}
 									</div>
 								</div>
 							</div>
