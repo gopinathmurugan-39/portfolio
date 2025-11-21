@@ -17,8 +17,7 @@ export const AboutSection = () => {
 					</p>
 
 					<p className="text-muted-foreground">
-						I'm deeply interested in scalability, optimization, and improving developer experience. I'm constantly learning new technologies and
-						techniques to stay at the forefront of the constantly evolving web landscape.
+						I'm deeply interested in scalability, optimization, and improving developer experience. I continuously learn new technologies and techniques to stay at the forefront of the constantly evolving web landscape.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

@@ -4,7 +4,7 @@ const projects = [
 	{
 		id: 1,
 		title: "Affinity (IC Role)",
-		description: "A multi-tenant web application serving luxury real estate firms. The screenshot is from on of the clients' website",
+		description: "A multi-tenant web application serving luxury real estate firms. The thumbnail is from one of the clients(Sothebys Real Estate)",
 		image: "/projects/project-affinity.png",
 		tags: ["NextJs", "TypeScript", "SASS",],
 		demoUrl: "",
@@ -62,7 +62,7 @@ export const ProjectsSectiom = () => {
 				}
 			</div>
 			<div className="text-center mt-12">
-				<a href="#"c target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">
+				<a href="https://github.com/gopinathmurugan-39" target="_blank" className="cosmic-button w-fit flex items-center mx-auto gap-2">
 					Check my Github <ArrowRight size={16} />
 				</a>
 			</div>
