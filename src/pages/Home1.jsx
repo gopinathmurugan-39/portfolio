@@ -4,7 +4,6 @@ import { Footer } from "../components/Footer";
 import { HeroSection } from "../components/HeroSection";
 import { NavBar } from "../components/Navbar";
 import { ProjectsSectiom } from "../components/ProjectsSection";
-import { SkillsSection } from "../components/SkillsSection";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
 

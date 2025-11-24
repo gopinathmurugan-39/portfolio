@@ -1,14 +1,8 @@
 import {
-  Instagram,
   Linkedin,
   Mail,
   MapPin,
-  Phone,
-  Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
-import { useState } from "react";
 
 export const ContactSection = () => {
 	return (
