@@ -4,11 +4,20 @@ const projects = [
 	{
 		id: 1,
 		title: "Affinity (IC Role)",
-		description: "A multi-tenant web application serving luxury real estate firms. The thumbnail is from one of the clients(Sothebys Real Estate)",
-		image: "/projects/project-affinity.png",
-		tags: ["NextJs", "TypeScript", "SASS",],
+		description: "A multi-tenant web application used by luxury real estate firms. The thumbnail is from one of the clients(Sothebys Real Estate)",
+		image: "/projects/project-affinity-results.png",
+		tags: ["Next.js", "TypeScript", "SASS",],
 		demoUrl: "",
 		githubUrl: ""
+	},
+	{
+		id: 2,
+		title: "Todobase (Mini-project)",
+		description: "A basic todo app inspired from Google Keep to explore and demonstrate clean UI",
+		image: "/projects/project-todobase.png",
+		tags: ["React", "TypeScript", "Tailwind",],
+		demoUrl: "",
+		githubUrl: "https://github.com/gopinathmurugan-39/todobase"
 	}
 ];
 
@@ -34,7 +43,7 @@ export const ProjectsSectiom = () => {
 								<div className="flex flex-wrap gap-2 mb-4">
 									{
 										project.tags.map((tag) => (
-											<span className="px-2 py-1 font-medium rounded-full border bg-secondary text-secondary-foreground" key={tag}>{tag}</span>
+											<span className="px-2 py-1 font-medium rounded-full border bg-secondary text-secondary-foreground text-xs" key={tag}>{tag}</span>
 										))
 									}
 								</div>
