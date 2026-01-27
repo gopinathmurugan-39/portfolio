@@ -24,10 +24,6 @@ export const AboutSection = () => {
 						<a href="#contact" className="cosmic-button">
 							Get In Touch
 						</a>
-
-						<a href="/resume/Gopinath-Murugan-Resume.pdf" target="_blank" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/70 transition-colors duration-100">
-							Download CV
-						</a>
 					</div>
 				</div>
 
