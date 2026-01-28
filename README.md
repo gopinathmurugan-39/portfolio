@@ -13,5 +13,3 @@ Github Actions used for seamless deployments. Deployed on AWS S3
 - React
 - Vite
 - Tailwind CSS
-- React Router
-- ESLint
